@@ -4,78 +4,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheeet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
     <title>media queries</title>
 </head>
 <body>
     <header>
-        <h1>Nombre Pagina</h1>
-        <div>
-            <img src="https://png.vector.me/files/images/2/8/289446/gnu_linux_tux_coffee_logo_preview" alt="Logo">
-        </div>
-        <div>
-            <a href="#seccion1">Distros</a>
-            <a href="#seccion2">Escritorios</a>
-            <a href="#seccion3">Top5</a>
-            <a href="#redes">Redes</a>
+        <div class="container">
+            <h1>Nombre Pagina</h1>
+            <div class="imagen">
+                <img src="https://png.vector.me/files/images/2/8/289446/gnu_linux_tux_coffee_logo_preview" alt="Logo">
+            </div>
         </div>
     </header>
+    <nav class="barra">
+        <a href="#section1">Distros</a>
+        <a href="#section2">Escritorios</a>
+        <a href="#section3">Top5</a>
+        <a href="#redes">Redes</a>
+    </nav>
     <main>
-        <div id="seccion1">
-            <h2>Distros de Linux</h2>
-            <div class="imagenes">
-                <div>
-                    <img src="https://i.pinimg.com/originals/de/03/c5/de03c5c7f5d5821b368bac496ac1fd7d.png" alt="ubuntu">
-                </div>
-                <div>
-                    <img src="https://i1.wp.com/windtux.com/wp-content/uploads/2016/02/arch-linux-logo.png?fit=600%2C600&ssl=1" alt="arch">
-                </div>
-                <div>
-                    <img src="https://w7.pngwing.com/pngs/20/291/png-transparent-debian-linux-distribution-linux-foundation-linux-kernel-linux-text-logo-sign.png" alt="debian">
-                </div>
-                <div>
-                    <img src="https://e7.pngegg.com/pngimages/32/112/png-clipart-fedora-project-linux-distribution-centos-linux-label-text.png" alt="fedora">
-                </div>
-                <div>
-                    <img src="https://cdn.pling.com/img//hive/content-pre2/49576-2.png" alt="redhat">
-                </div>
-            </div>
-            <div>
+        <h2>Distros de Linux</h2>
+        <section id="section1">
+            <div class="lista">
                 <ul>
                     <li>
-                        <div>
+                        <div class="imagen">
+                            <img src="https://i.pinimg.com/originals/de/03/c5/de03c5c7f5d5821b368bac496ac1fd7d.png" alt="ubuntu">
+                        </div>
+                        <div class="texto">
                             <span>Ubuntu:</span>
                             <p>Es una distribución de Linux basada en Debian. Puede correr en computadores de escritorio y servidores. Está orientado al usuario promedio, con un fuerte enfoque en la facilidad de uso y en mejorar la experiencia del usuario.Su Archivo de Paquetes Personales (PPA) es APT</p>
                         </div>
                     </li>
                     <li>
-                        <div>
+                        <div class="imagen">
+                            <img src="https://i1.wp.com/windtux.com/wp-content/uploads/2016/02/arch-linux-logo.png?fit=600%2C600&ssl=1" alt="arch">
+                        </div>
+                        <div class="texto">
                             <span>Arch</span>
                             <p>Orientada a usuarios avanzados. Puede correr en arquitecturas ARM, x86_64. Se centra en elegancia, exactitud, minimalismo y simplicidad, aunque esto no implica sencillez en su manejo. Su gestor de paquetes es Pacman</p>
                         </div>
                     </li>
                     <li>
-                        <div>
+                        <div class="imagen">
+                            <img src="https://w7.pngwing.com/pngs/20/291/png-transparent-debian-linux-distribution-linux-foundation-linux-kernel-linux-text-logo-sign.png" alt="debian">
+                        </div>
+                        <div class="texto">
                             <span>Debian</span>
                             <p>El modelo de desarrollo es independiente a empresas, creado por los propios usuarios, sin depender de ninguna manera de necesidades comerciales. Soporta 12 plataformas en las que se encuentra ARM,amd64-x86-64,i386... Su gestor de paquetes es APT</p>
                         </div>
                     </li>
                     <li>
-                        <div>
+                        <div class="imagen">
+                            <img src="https://e7.pngegg.com/pngimages/32/112/png-clipart-fedora-project-linux-distribution-centos-linux-label-text.png" alt="fedora">
+                        </div>
+                        <div class="texto">
                             <span>Fedora</span>
                             <p>Se caracteriza por ser un sistema estable, la cual es mantenida gracias a una comunidad internacional de ingenieros, diseñadores gráficos y usuarios que informan de fallos. Cuenta con el respaldo y la promoción de Red Hat. Las plataformas admitidas son x86, x86-64. Gestor de Paquetes RPM</p>
                         </div>
                     </li>
                     <li>
-                        <div>
+                        <div class="imagen">
+                            <img src="https://cdn.pling.com/img//hive/content-pre2/49576-2.png" alt="redhat">
+                        </div>
+                        <div class="texto">
                             <span>Red Hat Enterprise Linux</span>
                             <p>Es la plataforma empresarial Linux líder en el mundo. Es lo que permite ampliar las aplicaciones actuales e implementar tecnologías nuevas en equipos sin sistema operativo, entornos virtuales, contenedores y todo tipo de entornos de nube. Plataformas admitidas IBM Power,x86,x86-64... Gestor de paquetes RPM</p>
                         </div>
                     </li>
                 </ul>
             </div>
-        </div>
-        <div id="seccion2">
+        </section>
+        <section id="section2">
             <h2>Diseños de Escritorios</h2>
             <div>
                 <h3>Kde Plasma</h3>
@@ -105,8 +105,8 @@
                 </div>
                 <p>Desarrollado por Elementary os. UI similar a MacOS</p>
             </div>
-        </div>
-        <div id="seccion3">
+        </section>
+        <section id="section3">
             <h2>Top 5 Distros</h2>
             <div>
                 <ul>
@@ -160,7 +160,7 @@
                 </div>
                 </div>
             </div>
-        </div>
+        </section>
     </main>
     <footer id="redes">
         <div>

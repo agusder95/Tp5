@@ -1,0 +1,120 @@
+/* Golbales */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:#c99bca;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+/* Header */
+
+header{
+    background-color: #74a572;
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header .container .imagen{
+    width: 9%;
+}
+
+/* Barra navergacion */
+nav.barra{
+    position: sticky;
+    top: 0;
+    background-color: #74a572;
+    display: flex;
+    align-items: center;
+    border-top-style: solid;
+    border-top-width:1px ;
+    border-color:rgb(216, 212, 206);
+    height: 50px;
+}
+
+nav.barra a{
+    margin:10px;
+    padding: 10px;
+    border-style: solid;
+    border-color: wheat;
+    border-width: 1px;
+}
+
+/* Main */
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+#section1{
+    display: flex;
+}
+
+#section1 .columna{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#section1 .lista ul{
+    margin: 10px;
+}
+
+.lista ul li{
+    display: flex;
+}
+
+.lista ul li .imagen{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+.lista ul li .imagen img{
+    height: 100%;
+    object-fit: fill;
+}
+
+li .texto {
+    margin: 2%;
+}
+
+li .texto span{
+    margin: 3px;
+}
+
+li .texto p{
+    padding: 10px;
+}
+
+
+
+
+
+#section2{
+    display: flex;
+}
+
+
+
+
+#section3{
+    display: flex;
+}
